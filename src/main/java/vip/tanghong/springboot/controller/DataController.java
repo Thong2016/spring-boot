@@ -16,6 +16,7 @@ public class DataController {
 
     @RequestMapping("/user")
     public User user() {
+		System.out.Println("hello")
         User user = new User();
         user.setUserId(1);
         user.setUserName("tanghong");
