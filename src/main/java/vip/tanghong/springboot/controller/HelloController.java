@@ -28,6 +28,7 @@ public class HelloController {
     public String hello1(@RequestBody User user) {
         System.out.println(user);
         String userStr = JSON.toJSONString(user);
+        System.out.Println(use);
         return userStr;
     }
 
